@@ -9,9 +9,13 @@ let row1 = document.querySelector(".row-1");
 // CHALLENGE #1 - make the rows match
 
 // 1. Set the styling of `example1` to a background color of black.
-
+example1.style.backgroundColor = "black"
 // 2. Set the styling of `pink` to a background color of pink.
-
+pink.style.backgroundColor = "pink"
+green.style.backgroundColor = "green"
+blue.style.backgroundColor = "blue"
+lightGreen.style.backgroundColor = "lightgreen"
+row1.style.color = "white"
 // 3. Set the styling of `green` to a background color of green.
 
 // 4. Set the styling of `blue` to a background color of blue.
@@ -29,7 +33,10 @@ let imageButton = document.querySelector(".image-button");
                                    
 // 7. Add an event listener to `imageButton`
 // - The event type should be "click" or "dblclick"
-
+imageButton.addEventListener("click", function() {
+    image.style.width = "300px"
+    image.style.border = "solid 5px #42068c"
+})
 // Include the next tasks in the body of the function.
 
 // 8. The image is wayyyy too big and needs a border.
